@@ -1,0 +1,81 @@
+:root{
+    --clr-bg:hsl(0, 0%, 8%);
+    --clr-card:hsl(0, 0%, 12%);
+    --clr-btn:hsl(0, 0%, 20%);
+    --clr-green:hsl(75, 94%, 57%);
+}
+
+body{
+    background-color: var(--clr-bg);
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+}
+
+.card{
+    background-color: var(--clr-card);
+    max-width: 25rem;
+    width: 100%;
+    height : 35rem;
+    margin: 3rem auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+img{
+    border-radius: 50%;
+    width : 70px;
+    margin-top:20px;
+}
+
+h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+span{
+    color: var(--clr-green);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tag{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color :hsla(0, 5%, 92%, 0.814);
+}
+
+.profile-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.social-button {
+    width : 300px;
+    height: 40px;
+    background-color: var(--clr-btn); /* You can use the color variable you defined */
+    color: hsl(0, 0%, 100%);; /* You can use the color variable you defined */
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:550;
+  }
+
+.social-button:hover{
+    background-color: var(--clr-green);
+    color: var(--clr-bg);
+}
